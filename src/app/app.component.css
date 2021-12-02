@@ -1,0 +1,31 @@
+* {
+  font-family: cursive;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+.arrivee > input {
+  border-radius: 15px;
+  background-color: gray;
+}
+.depart {
+  padding-bottom: 25px;
+}
+.arrivee {
+  padding-top: 25px;
+}
+.depart > input {
+  border-radius: 15px;
+  background-color: gray;
+}
+h1 {
+  text-align: center;
+}
+option {
+  animation: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
